@@ -38,12 +38,12 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -136,20 +136,6 @@ body {
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
-    }
-  }
-
-  :not(pre) > code {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    font-size: 0.8em;
-    background: $code-background-color;
-    border-radius: $border-radius;
-
-    &::before,
-    &::after {
-      letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
     }
   }
 
