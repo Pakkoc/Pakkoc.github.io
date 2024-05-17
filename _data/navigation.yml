@@ -16,12 +16,10 @@ docs:
     - title: "R"
       url: categories/R
       category: "R"
-
-  - title: "Database"
-    children:
     - title: "SQL"
       url: categories/sql
       category: "sql"
+
 
   - title: "Statistics"
     children:
@@ -34,6 +32,9 @@ docs:
     - title: "Project"
       url: categories/project
       category: "project"
+    - title: "Algorithm"
+      url: categories/algorithm
+      category: "algorithm"      
     - title: "Certificate"
       url: categories/certificate
       category: "certificate"
