@@ -28,6 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : "/assets/images/profile-zeezee.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
+future                   : true
 words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
