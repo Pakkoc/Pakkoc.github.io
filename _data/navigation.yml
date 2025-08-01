@@ -13,9 +13,6 @@ docs:
     - title: "Python"
       url: categories/python
       category: "python"    
-    - title: "R"
-      url: categories/R
-      category: "R"
     - title: "MySQL"
       url: categories/MySQL
       category: "MySQL"
@@ -41,6 +38,9 @@ docs:
     - title: "Daily"
       url: categories/Daily
       category: "Daily"
+    - title: "CS"
+      url: categories/cs
+      category: "cs"
       
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
