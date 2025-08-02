@@ -8,39 +8,41 @@ main:
   #   url: /search/    
 
 docs:
-  - title: "Language"
+  - title: "💻 Programming"
     children: 
-    - title: "Python"
+    - title: "🐍 Python"
       url: categories/python
       category: "python"    
-    - title: "MySQL"
+    - title: "🗄️ MySQL"
       url: categories/MySQL
       category: "MySQL"
+    - title: "🧩 Algorithm"
+      url: categories/algorithm
+      category: "algorithm"      
+    - title: "🖥️ CS"
+      url: categories/cs
+      category: "cs"
 
-
-  - title: "Statistics"
+  - title: "📊 Data & Analysis"
     children:
-    - title: "Statistics"
+    - title: "📈 Statistics"
       url: categories/statistics
       category: "statistics"
 
-  - title: "Etc"
+  - title: "🚀 Projects & Experience"
     children:
-    - title: "Project"
+    - title: "⚡ Project"
       url: categories/project
       category: "project"
-    - title: "Algorithm"
-      url: categories/algorithm
-      category: "algorithm"      
-    - title: "Certificate"
+    - title: "🏆 Certificate"
       url: categories/certificate
       category: "certificate"
-    - title: "Daily"
+
+  - title: "📝 Daily"
+    children:
+    - title: "☀️ Daily"
       url: categories/Daily
       category: "Daily"
-    - title: "CS"
-      url: categories/cs
-      category: "cs"
       
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

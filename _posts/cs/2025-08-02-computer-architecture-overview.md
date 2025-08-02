@@ -4,12 +4,8 @@ layout: single
 categories:
   - cs
 tags:
-  - 컴퓨터구조
-  - CPU
-  - 메모리
-  - 시스템버스
-  - ALU
-  - 레지스터
+  - computer-architecture
+  - hardware
 author_profile: false
 redirect_from: /cs/computer-architecture-overview
 sidebar:
