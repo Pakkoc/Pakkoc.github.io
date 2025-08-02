@@ -40,4 +40,12 @@
 @import "minimal-mistakes/print";
 
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Gamja+Flower&family=Hahmlet:wght@100..900&family=Jua&family=Sunflower:wght@300&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Gamja+Flower&family=Hahmlet:wght@100..900&family=Jua&family=Sunflower:wght@300&family=Yeon+Sung&family=Noto+Sans+KR:wght@300;400;500;700&family=Pretendard:wght@300;400;500;600;700&display=swap');
+
+/* cafe24 fonts */
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

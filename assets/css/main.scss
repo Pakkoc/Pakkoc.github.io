@@ -1,9 +1,27 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
-@charset "utf-8";
+// Jekyll SCSS 파일입니다
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 커스텀 스타일 */
+.archive__item .page__meta {
+  margin: 0 0 4px;
+  font-size: 0.6em;
+  opacity: 0.8;
+}
+
+.archive__item-title {
+  margin-top: 0.2em !important;
+}
+
+/* 밑줄 제거 */
+.archive__item-title a {
+  text-decoration: none !important;
+}
+
+.page__taxonomy-item-tag {
+  text-decoration: none !important;
+}
