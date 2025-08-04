@@ -5,7 +5,6 @@ categories:
   - cs
 tags:
   - cs
-  - computer-architecture
 author_profile: false
 redirect_from: /cs/computer-architecture-overview
 sidebar:
