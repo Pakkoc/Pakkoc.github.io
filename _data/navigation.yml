@@ -10,37 +10,37 @@ main:
 docs:
   - title: "💻 Programming"
     children: 
-    - title: "🐍 Python"
+    - title: "Python"
       url: categories/python
       category: "python"    
-    - title: "🗄️ MySQL"
+    - title: "MySQL"
       url: categories/MySQL
       category: "MySQL"
-    - title: "🧩 Algorithm"
+    - title: "Algorithm"
       url: categories/algorithm
       category: "algorithm"      
-    - title: "🖥️ CS"
+    - title: "CS"
       url: categories/cs
       category: "cs"
 
   - title: "📊 Data & Analysis"
     children:
-    - title: "📈 Statistics"
+    - title: "Statistics"
       url: categories/statistics
       category: "statistics"
 
   - title: "🚀 Projects & Experience"
     children:
-    - title: "⚡ Project"
+    - title: "Project"
       url: categories/project
       category: "project"
-    - title: "🏆 Certificate"
+    - title: "Certificate"
       url: categories/certificate
       category: "certificate"
 
   - title: "📝 Daily"
     children:
-    - title: "☀️ Daily"
+    - title: "Daily"
       url: categories/Daily
       category: "Daily"
       
