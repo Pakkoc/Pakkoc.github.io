@@ -1,9 +1,10 @@
 ---
-title: "컴퓨터 구조의 큰 그림 및 흐름"
+title: "[CS] 컴퓨터 구조의 큰 그림 및 흐름"
 layout: single
 categories:
   - cs
 tags:
+  - cs
   - computer-architecture
   - hardware
 author_profile: false
