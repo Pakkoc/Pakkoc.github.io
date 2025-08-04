@@ -6,7 +6,6 @@ categories:
 tags:
   - cs
   - computer-architecture
-  - hardware
 author_profile: false
 redirect_from: /cs/computer-architecture-overview
 sidebar:
