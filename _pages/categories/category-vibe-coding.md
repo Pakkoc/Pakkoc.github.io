@@ -1,8 +1,9 @@
 ---
 title: "VibeCoding"
 layout: archive
+classes: wide
 permalink: categories/vibecoding
-author_profile: true
+author_profile: false
 sidebar:
   nav: "docs"
 ---

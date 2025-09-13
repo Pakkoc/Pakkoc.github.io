@@ -25,3 +25,49 @@
 .page__taxonomy-item-tag {
   text-decoration: none !important;
 }
+
+/* 카테고리 페이지: 사이드바 폭을 고려해 기본 레이아웃 유지 */
+.wide .archive {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+  }
+}
+
+/* 태그 줄바꿈/겹침 개선: 길어도 한 줄 유지 + 스크롤 가능 */
+.archive__item-excerpt {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.archive__item-excerpt .page__taxonomy-item-tag {
+  white-space: nowrap;
+}
+
+/* 제목과 태그를 같은 행에 배치 */
+.archive__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.archive__row .archive__item-title {
+  margin: 0; /* 위아래 여백 제거로 줄바꿈 방지 */
+  flex: 0 1 auto;
+}
+
+.archive__item-tags {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  overflow-x: auto;
+  white-space: nowrap;
+}

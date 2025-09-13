@@ -2,7 +2,8 @@
 title: "Python"
 layout: archive
 permalink: categories/python
-author_profile: true
+author_profile: false
+classes: wide
 sidebar:
   nav: "docs"
 ---
