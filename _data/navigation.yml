@@ -16,18 +16,27 @@ docs:
     - title: "MySQL"
       url: categories/MySQL
       category: "MySQL"
-    - title: "Algorithm"
-      url: categories/algorithm
-      category: "algorithm"      
-    - title: "CS"
-      url: categories/cs
-      category: "cs"
 
   - title: "📊 Data & Analysis"
     children:
     - title: "Statistics"
       url: categories/statistics
       category: "statistics"
+
+  - title: "🧠 CS"
+    children:
+    - title: "CS"
+      url: categories/cs
+      category: "cs"
+    - title: "Algorithm"
+      url: categories/algorithm
+      category: "algorithm"
+
+  - title: "🎧 VibeCoding"
+    children:
+    - title: "VibeCoding"
+      url: categories/vibecoding
+      category: "vibecoding"
 
   - title: "🚀 Projects & Experience"
     children:
