@@ -39,6 +39,16 @@
   }
 }
 
+/* 특정 카테고리(예: VibeCoding)에서 본문을 더 넓게 */
+.wide-plus .archive {
+  @include breakpoint($large) {
+    width: calc(100% - #{$right-sidebar-width-narrow} + 120px);
+  }
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width} + 160px);
+  }
+}
+
 /* 홈 전체폭 레이아웃 */
 /* wide 레이아웃: 사이드바 옆 본문 */
 .wide .archive {
@@ -72,10 +82,21 @@
 }
 
 /* 제목 아래 태그 배치 */
+.archive__item-title {
+  display: block;
+  margin-bottom: 4px;
+}
+
 .archive__item-tags {
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
   gap: 6px;
+  max-width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+.archive__item-tags .page__taxonomy-item-tag {
+  font-size: 0.85em;
+  padding: 2px 8px;
 }
