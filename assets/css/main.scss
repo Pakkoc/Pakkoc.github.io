@@ -39,6 +39,25 @@
   }
 }
 
+/* 홈 전체폭 레이아웃 */
+/* wide 레이아웃: 사이드바 옆 본문 */
+.wide .archive {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+  }
+}
+
+/* 홈 상단 여백 최소화 */
+.layout--home .archive {
+  margin-top: 0.5em;
+}
+
 /* 태그 줄바꿈/겹침 개선: 길어도 한 줄 유지 + 스크롤 가능 */
 .archive__item-excerpt {
   display: flex;
@@ -52,18 +71,7 @@
   white-space: nowrap;
 }
 
-/* 제목과 태그를 같은 행에 배치 */
-.archive__row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.archive__row .archive__item-title {
-  margin: 0; /* 위아래 여백 제거로 줄바꿈 방지 */
-  flex: 0 1 auto;
-}
-
+/* 제목 아래 태그 배치 */
 .archive__item-tags {
   display: inline-flex;
   flex: 0 0 auto;
