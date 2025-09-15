@@ -109,11 +109,11 @@ author:
   avatar           : "/assets/images/24.3.11.jpg"
   bio              : "꾸준함은 승리한다"
   location         : "South Korea"
-  email            : "qkrtjdgh751014@gmail.com"
+  # email            : "qkrtjdgh751014@gmail.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "qkrtjdgh751014@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&to=qkrtjdgh751014@gmail.com"
     - label: "Website"                  ############ 나중에 포트폴리오 및 이력서 올리는 링크로 활용하기
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
