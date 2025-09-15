@@ -14,7 +14,7 @@ search: true
 toc: true
 toc_sticky: true
 toc_label: 목차
-date: 2025-09-13 00:00:00 +0900
+date: 2025-09-13 00:01:00 +0900
 ---
 
 # 실습 1 : “루피 vs 아카이누 불주먹” 게임 만들기
