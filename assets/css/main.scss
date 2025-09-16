@@ -90,7 +90,7 @@
 .archive__item-tags {
   display: flex;
   flex-wrap: nowrap;
-  gap: 6px;
+  gap: 4px;
   max-width: 100%;
   overflow-x: auto;
   white-space: nowrap;
@@ -99,6 +99,28 @@
 .archive__item-tags .page__taxonomy-item-tag {
   font-size: 0.85em;
   padding: 2px 8px;
+}
+
+/* 태그 배지 크기 축소: 여백/패딩 줄이기 */
+.page__taxonomy-item {
+  padding: 1px 8px; /* 좌우 여백 확대 */
+  margin-right: 3px;
+  margin-bottom: 4px;
+  min-width: 40px; /* 최소 규격 */
+  text-align: center;
+}
+
+/* 목록 컨텍스트에서는 gap으로만 간격 제어 */
+.archive__item-tags .page__taxonomy-item {
+  margin: 0;
+  padding: 1px 8px; /* 목록 컨텍스트도 동일 좌우 여백 */
+}
+
+/* 내부 링크 패딩 제거로 높이 축소 */
+.archive__item-tags .page__taxonomy-item-tag,
+.page__taxonomy .page__taxonomy-item-tag {
+  padding: 0;
+  font-size: 0.8em;
 }
 
 /* 홈: 게시글 블록(날짜+제목+태그) 사이 여백 */
