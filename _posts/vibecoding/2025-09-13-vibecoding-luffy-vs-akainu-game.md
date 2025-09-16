@@ -5,8 +5,8 @@ categories:
   - vibecoding
 tags:
   - vibecoding
-  - vibecoding-lab
   - prompt-engineering
+  - singleton
 author_profile: false
 sidebar:
   nav: "docs"
