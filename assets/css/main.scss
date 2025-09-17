@@ -147,3 +147,18 @@
 .layout--category .entries-list .list__item:last-child {
   margin-bottom: 0;
 }
+
+/* 인라인 배지: 파일 경로, 키워드 라벨용 */
+.inline-badge {
+  display: inline-block;
+  padding: 1px 6px; /* 더 작게, 문장 흐름 방해 최소화 */
+  border: 1px solid $border-color; /* 테마 경계색 */
+  border-radius: 6px; /* pill 대신 작은 radius */
+  background: $code-background-color; /* 코드 배경과 동일 톤 */
+  color: $text-color; /* 본문 텍스트 색상 */
+  font: 0.85em/1.8 $monospace; /* 테마 monospace 사용 */
+  white-space: nowrap;
+}
+
+/* 주변 문장과의 시각적 간격 조정 */
+.inline-badge { margin: 0 2px; }
