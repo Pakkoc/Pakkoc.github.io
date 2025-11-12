@@ -162,3 +162,13 @@
 
 /* 주변 문장과의 시각적 간격 조정 */
 .inline-badge { margin: 0 2px; }
+
+/* 카테고리 개별 페이지(/categories/{name}) 우측 여백 제거 */
+.layout--archive .archive {
+  @include breakpoint($large) {
+    padding-right: 0 !important;
+  }
+  @include breakpoint($x-large) {
+    padding-right: 0 !important;
+  }
+}
