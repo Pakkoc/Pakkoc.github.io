@@ -137,6 +137,42 @@
   }
 </script>
 
+{% if page.date %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ canonical_url | jsonify }}
+    },
+    "headline": {{ page.title | jsonify }},
+    "description": {{ seo_description | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    {% if page.last_modified_at %}
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+    {% else %}
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    {% endif %}
+    "author": {
+      "@type": "Person",
+      "name": {{ author.name | default: site.author.name | jsonify }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ site.logo | absolute_url | jsonify }}
+      }
+    }
+    {% if page_large_image or page_teaser_image %},
+    "image": {{ page_large_image | default: page_teaser_image | jsonify }}
+    {% endif %}
+  }
+</script>
+{% endif %}
+
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
