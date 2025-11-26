@@ -1,5 +1,6 @@
 ---
 title: "[Certificate] ADsP 짧은 후기"
+excerpt: "ADsP 자격증을 일주일 만에 취득한 공부 방법, 교재 추천, 합격 후기를 공유합니다."
 layout: single
 categories:
   - certificate

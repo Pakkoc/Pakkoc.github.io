@@ -1,5 +1,6 @@
 ---
 title: "[vibecoding] 실습 1 : 간단한 게임 만들기"
+excerpt: "GPT-5를 활용해 원피스 테마 불주먹 피하기 게임을 프롬프트 두 번으로 만드는 과정입니다."
 layout: single
 categories:
   - vibecoding

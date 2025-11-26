@@ -1,5 +1,6 @@
 ---
 title: "[vibecoding] Day 3 : 데이터베이스와와 데이터 구조 설계"
+excerpt: "바이브 코딩 3일차, 데이터베이스 연동과 데이터 구조 설계의 중요성을 알아봅니다."
 layout: single
 categories:
   - vibecoding

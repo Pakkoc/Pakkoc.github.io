@@ -1,5 +1,6 @@
 ---
 title: "[vibecoding] Day 2 실습: 장바구니 기능 구현"
+excerpt: "LocalStorage 기반 장바구니 기능을 모듈화 설계하며 바이브 코딩을 실습합니다."
 layout: single
 categories:
   - vibecoding

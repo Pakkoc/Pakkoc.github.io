@@ -1,5 +1,6 @@
 ---
 title: "[project] 바이브 코딩으로 만든 디스코드 학습 트래커 봇 개발기"
+excerpt: "AI 도구와 협업하는 바이브 코딩으로 디스코드 학습 시간 추적 봇을 개발한 과정과 노하우를 공유합니다."
 layout: single
 categories:
   - project
