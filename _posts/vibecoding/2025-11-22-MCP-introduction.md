@@ -1,5 +1,6 @@
 ---
 title: "[vibecoding] MCP 란? "
+excerpt: "Anthropic이 공개한 MCP(Model Context Protocol)의 개념, 등장 배경, 3-Layer 아키텍처 작동 원리를 알아봅니다."
 layout: single
 categories:
   - vibecoding
