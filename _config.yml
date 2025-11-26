@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Pakko's Data"
 title_separator          : "-"
 subtitle                 : #dd
 name                     : "Pakko"
-description              : "데이터 공부하는 과정을 게시하는 블로그"
+description              : "데이터 분석, 파이썬, 알고리즘, 바이브코딩, AI 도구 활용법을 다루는 기술 블로그. 데이터 엔지니어링과 개발 학습 과정을 기록합니다."
 url                      : "https://pakkoc.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Pakkoc/blog_comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,7 +87,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/profile-zeezee.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
