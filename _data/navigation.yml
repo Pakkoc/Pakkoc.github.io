@@ -47,11 +47,15 @@ docs:
       url: categories/certificate
       category: "certificate"
 
-  - title: "📝 Daily"
+  - title: "📝 Etc"
     children:
+    - title: "n8n"
+      url: categories/n8n
+      category: "n8n"
     - title: "Daily"
       url: categories/Daily
       category: "Daily"
+
       
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
