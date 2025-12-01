@@ -143,7 +143,7 @@ AI에게 좀 더 다른 방법이 없는지 물어봤다.
 
 처음에는 "JSON Property"에 input에 있는 data를 넣었는데 오류가 났다.    
 
-| JSON Property = data라고 쓰면 | JSON Property = 드래그해서 {% raw %}{{$json.data}}{% endraw %}가 들어가면 |
+| JSON Property = data라고 쓰면 | JSON Property = 드래그해서 \{\{$json.data\}\}가 들어가면 |
 |:--|:--|
 | -> 현재 item의 data라는 **필드 이름**을 보고<br>-> 그 안에 있는 HTML 전체 문자열을 가져와서 파싱 | "JSON Property에 들어있는 문자열을 **키 이름**으로 생각하고,<br>그 키를 가진 필드를 찾겠다." |
 
@@ -269,6 +269,8 @@ https://api.telegram.org/bot[발급받은 토큰값]/getUpdates
 또한 이제 진짜로 자동화가 시작되는 기분이라 이것을 어떻게 활용해서 내 업무를 자동화 할 수 있을지 고민을 해봐야겠다고 느꼈다. threads나 오픈 카톡방에서 보면은 잘 활용하시는 분들 있는데 이번 공부를 통해서 이 분들이 노드를 어떻게 짯고 이용했는지 플로우를 대략적으로라도 파악할 수 있게 되었다!!
 
 앞으로 남은 2주도 화이팅
+
+
 
 <br>
 
