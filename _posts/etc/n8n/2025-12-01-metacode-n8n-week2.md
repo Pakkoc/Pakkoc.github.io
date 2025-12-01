@@ -143,7 +143,7 @@ AI에게 좀 더 다른 방법이 없는지 물어봤다.
 
 처음에는 "JSON Property"에 input에 있는 data를 넣었는데 오류가 났다.    
 
-| JSON Property = data라고 쓰면 | JSON Property = 드래그해서 \{\{$json.data\}\}가 들어가면 |
+| JSON Property = data라고 쓰면 | JSON Property = 드래그해서 {% raw %}{{$json.data}}{% endraw %}가 들어가면 |
 |:--|:--|
 | -> 현재 item의 data라는 **필드 이름**을 보고<br>-> 그 안에 있는 HTML 전체 문자열을 가져와서 파싱 | "JSON Property에 들어있는 문자열을 **키 이름**으로 생각하고,<br>그 키를 가진 필드를 찾겠다." |
 
@@ -203,9 +203,9 @@ AI에게 좀 더 다른 방법이 없는지 물어봤다.
 
 ---
 [기사]
-제목: {{ $json.title }}
-내용: {{ $json.category }}
-출처: {{ $('RSS Feed Trigger').item.json.link }}
+제목: {% raw %}{{ $json.title }}{% endraw %}
+내용: {% raw %}{{ $json.category }}{% endraw %}
+출처: {% raw %}{{ $('RSS Feed Trigger').item.json.link }}{% endraw %}
 
 ---
 [형식]
