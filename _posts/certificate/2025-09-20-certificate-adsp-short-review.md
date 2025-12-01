@@ -17,14 +17,14 @@ toc_label: 목차
 toc_icon: "fas fa-certificate"
 date: 2025-09-20 10:00:00 +0900
 ---
-<img src="../../images/2025-09-20-certificate-adsp-short-review/adsp 점수.png" alt="alt text" style="zoom:75%;" />
+<img src="../../images/certificate/2025-09-20-certificate-adsp-short-review/adsp 점수.png" alt="alt text" style="zoom:75%;" />
 
 ## 공부기간
 일주일(7일)을 잡고 공부 계획을 세웠음.   
 보통 하루에 1~2시간, 주말에는 길면 3시간 정도 했던 것 같습니다.
 
 ## 공부교재
-<img src="../../images/2025-09-20-certificate-adsp-short-review/아답터님 교재.jpg" alt="아답터 교재" style="zoom: 25%;" />
+<img src="../../images/certificate/2025-09-20-certificate-adsp-short-review/아답터님 교재.jpg" alt="아답터 교재" style="zoom: 25%;" />
 
 - 유투버 아답터님의 "ADsP 완벽대비 요약노트"
 - 가격 : 8800원
