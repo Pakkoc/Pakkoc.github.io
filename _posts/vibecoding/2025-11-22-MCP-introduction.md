@@ -17,6 +17,9 @@ toc_label: 목차
 date: 2025-11-22 00:00:00 +0900
 ---
 
+<p align="center">
+  <img src="/images/vibecoding/2025-11-22-MCP-introduction/mcp-thumbnail.png" alt="MCP 썸네일">
+</p>
 
 ## [AI 공부] 🔌 MCP(Model Context Protocol)
 
