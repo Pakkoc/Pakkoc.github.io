@@ -13,7 +13,7 @@ sidebar:
 date: 2025-12-01 01:01:00 +0900
 ---
 
-![이번주 몬가몬가 오래걸렸다,,]({{site.url}}/images/etc/n8n/2025-12-01-metacode-n8n-week2/image.png){: .align-center}
+![이번주 몬가몬가 오래걸렸다,,](../../../images/etc/n8n/2025-12-01-metacode-n8n-week2/image.png){: .align-center}
 
 > 일부 이미지가 생략되어 있습니다. 더 자세한 내용은 하단 [학습 정리 자료]의 네이버 블로그 원본 링크를 참고해주세요.
 

@@ -27,7 +27,7 @@ date: 2025-11-30 00:00:00 +0900
 내 머릿속에 있는 내용을 최대한 간결하게 적었음.
 
 <p align="center">
-  <img src="/images/cs/2025-11-30-http-request-method/Gemini_Generated_Image_42ijn342ijn342ij.png" alt="HTTP Request Method 썸네일" width="50%">
+  <img src="../../images/cs/2025-11-30-http-request-method/Gemini_Generated_Image_42ijn342ijn342ij.png" alt="HTTP Request Method 썸네일" width="50%">
 </p>
 
 ### 1. GET (조회)
