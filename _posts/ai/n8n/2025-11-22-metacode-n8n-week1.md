@@ -17,7 +17,7 @@ sidebar:
     nav: "docs"
 ---
 
-![메타코드 Every AI 1기](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image.png){: .align-center}
+![메타코드 Every AI 1기](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image.png){: .align-center}
 
 > 일부 이미지가 생략되어 있습니다. 더 자세한 내용은 하단 [학습 정리 자료]의 네이버 블로그 원본 링크를 참고해주세요.
 
@@ -56,7 +56,7 @@ sidebar:
 - **API 키 :** **Gemini, 번역, 지도** 등 구글의 기능(서비스)을 가져다 쓸 때 "나 이 프로젝트야, 돈(또는 쿼터)은 내 프로젝트 앞으로 달아놔"라고 신원을 증명하는 용도.
 - **OAuth 2.0 :** **Gmail**처럼 "내 개인 계정에 로그인해서 메일 보내기" 같은 **권한**이 필요할 때 쓴다.
 
-| ![Google cloud API Key](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image1.png) | ![oAuth 클라이언트](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image2.png) |
+| ![Google cloud API Key](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image1.png) | ![oAuth 클라이언트](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image2.png) |
 |:--:|:--:|
 | *(좌) Google cloud API Key* | *(우) oAuth 클라이언트* |
 
@@ -66,7 +66,7 @@ sidebar:
 
 위에는 실습에 필요한 Credential을 발급 받았으니, 이제는 이를 활용해서 직접 n8n workflow를 따라 만들어 보았다.
 
-![workflow 첫 화면](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image_27.png){: .align-center}
+![workflow 첫 화면](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image_27.png){: .align-center}
 *workflow 첫 화면*
 {: .text-center}
 
@@ -78,7 +78,7 @@ sidebar:
 
 추가적으로 Gemini를 연결하기위해 아까 만든 **Google cloud API Key**를 사용했다.
 
-![Ai Agent node에서 Gemini를 붙였다](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image3.png){: .align-center}
+![Ai Agent node에서 Gemini를 붙였다](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image3.png){: .align-center}
 *Ai Agent node에서 Gemini를 붙였다.*
 {: .text-center}
 
@@ -86,7 +86,7 @@ sidebar:
 
 AI Agent를 더블클릭한 후, (1)번에 프롬프트를 입력 -> (2)번을 보면 왼쪽 INPUT에는 사용할 수 있는 데이터가 있다. 이를 프롬프트쪽으로 드래그를 하면 저 데이터를 프롬프트에 활용할 수 있다.
 
-![프롬프트 입력](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image4.png){: .align-center}
+![프롬프트 입력](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image4.png){: .align-center}
 *프롬프트 입력*
 {: .text-center}
 
@@ -94,7 +94,7 @@ AI Agent를 더블클릭한 후, (1)번에 프롬프트를 입력 -> (2)번을 �
 
 이를 통해서 내 프롬프트가 잘 들어갔는지 중간점검을 하면서 프롬프트를 수정하면 될 것 같다.
 
-![프롬프트에 대한 output 확인하기](../../../images/etc/n8n/2025-11-22-metacode-n8n-week1/image5.png){: .align-center}
+![프롬프트에 대한 output 확인하기](../../../images/ai/n8n/2025-11-22-metacode-n8n-week1/image5.png){: .align-center}
 *프롬프트에 대한 output 확인하기*
 {: .text-center}
 

@@ -524,9 +524,9 @@ flowchart LR
 살펴본 결과 이대로 쓰고 부족한 UI나 기능은 한 두번정도 더 요청을 하면 될 것 같아서 
 Cursor에 위 프롬프트를 주면서 ‘이제 next.js로 제작해줘.’ 라고 시작을 알렸다.  
 
-![alt text](../../../images/vibecoding/2025-09-16-vibecoding-day2-cart-modularization/todo.png)
+![alt text](../../../images/ai/vibecoding/2025-09-16-vibecoding-day2-cart-modularization/todo.png)
 이와 같이 스스로 todo list를 만들고 아래와 같이 알아서 만들어준다.  
-![alt text](../../../images/vibecoding/2025-09-16-vibecoding-day2-cart-modularization/진행중인장면.png)  
+![alt text](../../../images/ai/vibecoding/2025-09-16-vibecoding-day2-cart-modularization/진행중인장면.png)  
 
 ## 추가 개선 요청
 처음 생성된 결과물을 보고 아쉬운 부분들을 수정하기 위해 프롬프트를 한 번 더 보냈다.
