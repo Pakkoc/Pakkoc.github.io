@@ -3,6 +3,7 @@ title: "[vibecoding] Day 2 :모듈화와 오버 엔지니어링 방지"
 excerpt: "바이브 코딩에서 오버 엔지니어링을 방지하고 효과적으로 모듈화하는 방법을 알아봅니다."
 layout: single
 categories:
+  - ai
   - vibecoding
 tags:
   - vibecoding

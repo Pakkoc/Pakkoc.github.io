@@ -3,6 +3,7 @@ title: "[vibecoding] 싱글턴으로 배우는 바이브코딩"
 excerpt: "바이브 코딩이란 무엇인가? 프롬프트 엔지니어링의 기초와 효과적인 AI 협업 방법을 알아봅니다."
 layout: single
 categories:
+  - ai
   - vibecoding
 tags:
   - vibecoding

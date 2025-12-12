@@ -3,6 +3,7 @@ title: "[vibecoding] MCP 활용해보기"
 excerpt: "MCP(Model Context Protocol)를 실제로 설정하고 활용하는 방법을 실습을 통해 알아봅니다."
 layout: single
 categories:
+  - ai
   - vibecoding
 tags:
   - vibecoding

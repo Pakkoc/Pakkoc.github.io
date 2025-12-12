@@ -32,8 +32,11 @@ docs:
       url: categories/algorithm
       category: "algorithm"
 
-  - title: "🎧 VibeCoding"
+  - title: "🤖 AI"
     children:
+    - title: "AI Agent"
+      url: categories/agent
+      category: "agent"
     - title: "VibeCoding"
       url: categories/vibecoding
       category: "vibecoding"
