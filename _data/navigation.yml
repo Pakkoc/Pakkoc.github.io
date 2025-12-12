@@ -40,6 +40,9 @@ docs:
     - title: "VibeCoding"
       url: categories/vibecoding
       category: "vibecoding"
+    - title: "n8n"
+      url: categories/n8n
+      category: "n8n"
 
   - title: "🚀 Projects & Experience"
     children:
@@ -52,9 +55,6 @@ docs:
 
   - title: "📝 Etc"
     children:
-    - title: "n8n"
-      url: categories/n8n
-      category: "n8n"
     - title: "Daily"
       url: categories/Daily
       category: "Daily"

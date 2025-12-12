@@ -3,6 +3,7 @@ title: "[메타코드] n8n 스터디 후기_1주차 : n8n의 세계에 들어가
 excerpt: "메타코드 everyai 1기로 참여하여 n8n 자동화 도구 학습을 시작했습니다. Trigger node, Credential 개념을 배우고 Gemini + Gmail 연동 실습을 진행했습니다."
 layout: single
 categories:
+    - ai
     - n8n
 tags:
     - n8n

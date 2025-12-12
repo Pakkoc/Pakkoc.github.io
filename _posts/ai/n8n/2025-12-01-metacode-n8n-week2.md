@@ -3,6 +3,7 @@ title: "[메타코드] n8n 스터디 후기_2주차 : 뉴스 공지 자동화"
 excerpt: "메타코드 everyai 2주차 - RSS를 활용한 뉴스 자동화와 Telegram 연동을 학습했습니다. RSS Trigger, HTTP Request, HTML 파싱, AI Agent를 연결하여 자동 알림 시스템을 구축했습니다."
 layout: single
 categories:
+    - ai
     - n8n
 tags:
     - n8n
