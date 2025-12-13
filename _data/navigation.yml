@@ -37,6 +37,9 @@ docs:
     - title: "AI Agent"
       url: categories/agent
       category: "agent"
+    - title: "MCP"
+      url: categories/mcp
+      category: "mcp"
     - title: "VibeCoding"
       url: categories/vibecoding
       category: "vibecoding"

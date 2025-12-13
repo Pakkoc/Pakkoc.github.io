@@ -1,12 +1,11 @@
 ---
-title: "[vibecoding] MCP 란? "
+title: "[MCP] MCP 란? "
 excerpt: "Anthropic이 공개한 MCP(Model Context Protocol)의 개념, 등장 배경, 3-Layer 아키텍처 작동 원리를 알아봅니다."
 layout: single
 categories:
   - ai
-  - vibecoding
+  - mcp
 tags:
-  - vibecoding
   - MCP
 author_profile: false
 sidebar:
@@ -19,7 +18,7 @@ date: 2025-11-22 00:00:00 +0900
 ---
 
 <p align="center">
-  <img src="../../../images/ai/vibecoding/2025-11-22-MCP-introduction/mcp-thumbnail.png" alt="MCP 썸네일">
+  <img src="../../../images/ai/mcp/2025-11-22-MCP-introduction/mcp-thumbnail.png" alt="MCP 썸네일">
 </p>
 
 ## [AI 공부] 🔌 MCP(Model Context Protocol)
@@ -34,7 +33,7 @@ date: 2025-11-22 00:00:00 +0900
 **MCP(Model Context Protocol)**는 한마디로 **"AI 모델이 외부 데이터나 도구와 소통하는 방식을 표준화한 약속(프로토콜)"**이라고 이해하면 된다.
 
 <p align="center">
-  <img src="../../../images/ai/vibecoding/2025-11-22-MCP-introduction/mcp_understand.png" alt="MCP 이해" width="70%">
+  <img src="../../../images/ai/mcp/2025-11-22-MCP-introduction/mcp_understand.png" alt="MCP 이해" width="70%">
 </p>
 
 가장 이해하기 쉬운 비유는 **'USB-C 타입'**이다.
@@ -58,7 +57,7 @@ MCP가 등장하기 전, 개발자들은 소위 '노가다'에 시달려야 했�
 MCP는 크게 세 가지 요소로 구성되어 작동한다. 이 세 가지가 어떻게 유기적으로 연결되는지 살펴보자.
 
 <p align="center">
-  <img src="../../../images/ai/vibecoding/2025-11-22-MCP-introduction/3-Layer_Architecture.jpeg" alt="3-Layer Architecture" width="70%">
+  <img src="../../../images/ai/mcp/2025-11-22-MCP-introduction/3-Layer_Architecture.jpeg" alt="3-Layer Architecture" width="70%">
 </p>
 *   **MCP 호스트 (Host):** AI를 사용하는 주체다. (예: Claude 데스크톱 앱, Cursor IDE, AI 에디터 등) 사용자의 요청을 받아서 처리를 시작하는 곳이라고 생각하면 된다.
 *   **MCP 클라이언트 (Client):** 호스트 내부에서 서버와 소통하는 '연결자' 역할을 한다. 호스트의 요청을 서버에 똑똑하게 전달해 주는 역할이다.
